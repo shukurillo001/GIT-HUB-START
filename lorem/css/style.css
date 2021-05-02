@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url();
+    background-repeat: repeat;
+    background-color: rgba(95, 95, 95, 0.918);
+}
+header{
+    background-color: black;
+    color: white;
+    border-radius: 50px;    
+}
+.banner{
+    /* border: 2px solid red; */
+    width: 98%;
+    height: 100px;
+    display: inline-block;
+    margin: 10px 15px;
+}
+.banner .pannel{
+    display: flex;
+    float:right;
+    padding: 30px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+ }
+
+li a{
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+li a:hover{
+    color:gold;
+    text-shadow: 3px 3px 10px red;
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    /* background-color: #fff; */
+    /* border:2px solid red; */
+    padding-bottom: 25px;
+
+}
+span{
+   float: left;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    font-size: 50px;
+}
+i{
+    color: red;
+
+}
+.rasmli-axborot{
+    display: inline;
+}
+img{
+    width: 40%;
+    display: inline;
+}
+.chap{
+    float: left;
+    /* padding:  5px 15px 5px 0; */
+    margin: 10px 15px 5px 15px;
+    overflow:auto;
+}
+.ong{
+    float: right;
+    margin: 15px 15px 5px 20px;
+    overflow:auto;
+
+}
+p{
+    margin: 10px 15px;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+.pasi{
+    /* background-color: red; */
+    padding: 25px 50px;
+    display: inline;
+}
+.icon{
+    
+    float: left;
+    width: 12%;
+    padding: 0 0 5px 15px ;
+}
